@@ -18,7 +18,7 @@ public class Cliente {
     private String telefone;
     @Column(nullable = false)
     private char sexo;
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String cpf;
 
 }
